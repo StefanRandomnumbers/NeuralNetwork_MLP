@@ -5,7 +5,7 @@ The project is made for two training cases, an XOR and a sinus function case.
 
 
 ## How to use
-The easiest way to run this project is to download the "standalone_build" as it comes with an executable and all Qt5 dependencies that are needed. 
+The easiest way to run this project is to download the [standalone_build](https://github.com/StefanRandomnumbers/NeuralNetwork_MLP/tree/main/standalone_build) as it comes with an executable and all Qt5 dependencies that are needed. 
 
 The XOR and the sinus case can be set via the Settings menue in the GUI. 
 The Settings tab also has the settings window where the number of layers, the layers sizes and the learningrate can be configured. 
