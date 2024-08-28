@@ -1,0 +1,6 @@
+*/build/*
+*/build_64/*
+*.jpg
+*.tif
+*.tiff
+*.png
