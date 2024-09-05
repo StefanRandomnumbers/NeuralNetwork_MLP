@@ -5,7 +5,7 @@ The project is made for two training cases, an XOR and a sinus function case.
 
 
 ## How to use
-The easiest way to run this project is to download the "standalone_build" as it comes with an executable and all Qt5 dependencies that are needed. 
+The easiest way to run this project is to download the [standalone_build](https://github.com/StefanRandomnumbers/NeuralNetwork_MLP/tree/main/standalone_build) as it comes with an executable and all Qt5 dependencies that are needed. 
 
 The XOR and the sinus case can be set via the Settings menue in the GUI. 
 The Settings tab also has the settings window where the number of layers, the layers sizes and the learningrate can be configured. 
@@ -21,6 +21,7 @@ denote at which inputs the network outputs are above 0.5, which is handled as Tr
 
 When testing out different layer sizes for the hidden layers, it is possible to recreate and see the Linear separability in action. More info on Linear separability: https://en.wikipedia.org/wiki/Linear_separability
 This image shows how the XOR operator can not be solved by a single perceptron but instead at least two are needed, as the input space can not be divided properly with only one straight line.
+
 ![image](https://github.com/user-attachments/assets/545d1e57-0ae2-4a99-b671-fe24ac7e7ec7)
 
 
@@ -34,4 +35,5 @@ Recommended model settings for this to be as visual as possible in the GUI are a
 - Learn rate: 0.05
 - Number of layers: 4
 - Neurons on each layer: 1, 40, 20, 1
+
 With these settings the model is complex enough to overfit to the training data. 
